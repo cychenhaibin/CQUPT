@@ -1,0 +1,258 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+  .clearfix {
+    zoom: 1;}
+  ::selection {
+    background: #67e4ff;}
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;}
+  .left {
+    float: left;}
+  .hide {
+    display: none !important;}
+  a {
+    color: #666666;
+    text-decoration: none;}
+  .ml35 {
+    margin-left: 35px;}
+  .right {
+    float: right;}
+  .wrap {
+    width: 990px;
+    margin: 0 auto;}
+  .page-header {
+    height: 112px;
+    overflow: hidden;
+    background: url(https://www.cqupt.edu.cn/dfiles/13011/cqupt/img/bg.jpg) repeat-x;}
+  .page-header .wrap {
+    position: relative;
+    z-index: 0;}
+  .page-header .language {
+    padding-top: 10px;
+    height: 18px;}
+  .page-header .language a,
+  .page-header .language span {
+    font-size: 13px;
+    color: #777777;}
+  .page-header .bg {
+    width: 743px;
+    height: 112px;
+    position: absolute;
+    left: 247px;
+    top: 0;
+    z-index: -1;
+    background: url(https://www.cqupt.edu.cn/dfiles/13011/cqupt/img/bg2.jpg) no-repeat;}
+  .page-header .headbox {
+    height: 5px;}
+  .page-footer {
+    height: 80px;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 35px;}
+  .page-footer span {
+    font-size: 13px;
+    color: #ffffff;}
+  .page-nav {
+    height: 41px;
+    border-bottom: 1px solid #FFFFFF;
+    position: relative;
+    z-index: 100;}
+  .page-navs {
+    height: 100%;}
+  .page-navs a {
+    /*font-size: 15px;
+    color: white;
+    line-height: 41px;*/
+      font-size: 16px!important;
+      text-indent: 2em!important;
+      text-align: justify!important;
+      font-family: "寰蒋闆呴粦"!important;
+      color: white;
+      line-height: 41px;}
+  .page-navs li {
+    position: relative;
+    display: block;
+    float: left;
+     width: 99px; 
+  /*width: 86px;*/
+    height: 100%;
+    text-align: center;}
+  .page-navs li:hover ul {
+    display: block;}
+  .page-navs-inner {
+    -webkit-animation: slideDown ease-out 0.2s;
+    -moz-animation: slideDown ease-out 0.2s;
+    animation: slideDown ease-out 0.2s;
+    position: absolute;
+    z-index: 199;
+    padding: 0;
+    top: 0px;
+    left: 0;
+    opacity: .8;
+    display: none;}
+  .page-navs-inner li {
+    height: 30px;}
+  .page-navs-inner li a {
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 30px;}
+  .page-navs-inner li:first-child {
+    height: 39px;
+    border-top: none !important;
+    border-bottom: 2px solid #fade73;}
+  .page-navs-inner li:first-child a {
+    font-size: 15px;
+    line-height: 41px;}
+  .btwhite {
+    border-top: 1px solid #ffffff !important;}
+  
+  .spring ._s1 {
+    background: #00c896;}
+  .spring ._s2 {
+    background: #00c896;}
+  .spring ._s3 {
+    background: #00c896;}
+  
+  .spring .select:hover{
+    background: #008264;}
+  .spring .headbox,
+  .spring .page-nav,
+  .spring .page-footer {
+    background: #00c896;}
+  .spring .page-navs-inner,
+  .spring .links .select ul {
+    background: #00c897;}
+  .spring .page-navs-inner li,
+  .spring .links .select ul li {
+    border-top: 1px solid #05e7af;}
+  .spring .page-navs-inner li:hover,
+  .spring .links .select ul li:hover {
+    background: #008264;}
+  .spring .page-navs li:hover {
+    background: #008264;}
+  .spring .page-navs li.active {
+    height: 39px;
+    border-bottom: 2px solid #fade73;
+    background: #008264;}
+  .summer .info-box .title{
+      border-bottom: 1px solid #0085fb
+  ;}
+  
+  .spring .info-box .title{
+      border-bottom: 1px solid #00c896
+  ;}
+  .summer ._s1 {
+    background: #0086fa;}
+  .summer ._s2 {
+      /*
+    background: #276aa4;
+    */
+     background: #0086fa;}
+  .summer ._s3 {
+    background: #0086fa;}
+  .summer .headbox,
+  .summer .page-nav,
+  .summer .page-footer {
+    background: #0085fb;}
+  .summer .page-navs-inner,
+  .summer .links .select ul {
+    background: #0085fb;}
+  .summer .page-navs-inner li,
+  .summer .links .select ul li {
+    border-top: 1px solid #3280c4;}
+  .summer .page-navs-inner li:hover,
+  .summer .links .select ul li:hover {
+    background: #0f6fc3;}
+  .summer .page-navs li:hover {
+    background: #286aa4;}
+  .summer .page-navs li.active {
+    /*background: #0f6fc3;*/}
+  .autumn ._s1 {
+    background: #fcb004;}
+  .autumn ._s2 {
+    background: #fcb004;}
+  .autumn ._s3 {
+    background: #fbb100;}
+  .autumn .info-box .title{
+      border-bottom: 1px solid #fbb000
+  ;}
+  .autumn .info-box .title .triangle {
+      border-bottom-color: #ee7300;}
+  .autumn .page-nav a{
+      color: #fff !important;}
+  .autumn .page-nav a:hover {
+      color: #ed7101 !important;}
+  .autumn .headbox,
+  .autumn .page-nav,
+  .autumn .page-footer {
+    background: #feb500;
+    }
+  .autumn .page-navs-inner,
+  .autumn .links .select ul {
+    background: #ff7b0c;}
+  .autumn .page-navs-inner li,
+  .autumn .links .select ul li {
+    border-top: 1px solid #fa8b2d;}
+  .autumn .page-navs-inner li:hover,
+  .autumn .links .select ul li:hover {
+    background: #dc6b0b;}
+  .autumn .page-navs-inner li.active,
+  .autumn .links .select ul li.active {
+    background: #ff7b0c;}
+  .autumn .page-navs li:hover,
+  .autumn .links .select ul li:hover {
+    background: #e46f0d;}
+  .winter ._s1 {
+    background: #81b7c9;
+    cursor:pointer;}
+  .winter ._s1:hover {
+    background: #e87332;}
+  .winter ._s2 {
+      /*
+    background: #f75b04;
+    */
+    background: #81b7c9;
+    cursor:pointer;}
+  .winter ._s2:hover {
+    background: #e87332;}
+  .winter ._s3 {
+    background: #81b7c9;
+    cursor:pointer;}
+  .winter ._s3:hover {
+    background: #e87332;}
+  .winter .headbox,
+  .winter .page-nav,
+  .winter .page-footer {
+    background: #81b7c9;}
+  .winter .page-navs-inner,
+  .winter .links .select ul {
+    background: #f97c36;}
+  .winter .page-navs-inner li,
+  .winter .links .select ul li {
+    border-top: 1px solid #fff;}
+  .winter .page-navs-inner li:hover,
+  .winter .links .select ul li:hover {
+    background: #e87332;}
+  .winter .page-navs-inner li.active,
+  .winter .links .select ul li.active {
+    background: #e87332;}
+  .winter .page-navs li:hover {
+    background: #e87332	;}
+  
+  .winter .list-box .news .words:hover {
+      color: #f97c36 !important;}
+  /*
+  .winter .info-box .title a[href="notice.shtml"]{
+      
+      color: #f97c36;
+  
+  }
+  */
+  .winter .info-box .title .more {
+      color: #b2b2b2 !important;}
